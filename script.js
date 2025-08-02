@@ -1,6 +1,6 @@
 function chooseuserchoice(choice) {
   const result = document.getElementById("result");
-  const img = document.getElementById("funnyImage");
+  const img = document.getElementById("funnyimage");
 
   result.textContent = `Ти обрав: "${choice}". Можна було і покраще вибрати!`;
 
