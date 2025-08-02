@@ -18,7 +18,13 @@ body {
   color: #213750;
 
 }
-  
+ #funnyImage {
+  display: none;
+  animation: spin 4s linear infinite;
+  margin-top: 40px;
+  display: inline-block;
+}
+ 
   
 
   
