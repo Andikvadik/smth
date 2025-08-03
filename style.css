@@ -26,8 +26,8 @@ body {
   to { transform: rotate(360deg); }
 }
 
-#funnyImage {
-  display: none;         /* ховаємо за замовчуванням */
+#funnyimage {
+  display: none;        
   margin-top: 40px;
   opacity: 0;
   transition: opacity 0.5s ease;
