@@ -27,21 +27,21 @@ body {
 }
 
 #funnyimage {
-  display: none;        
+  display: inline-block;
   margin-top: 40px;
   opacity: 0;
   transition: opacity 0.5s ease;
-  display: inline-block;
 }
+
 #funnyimage:not(.show-spin) {
   display: none;
 }
 
 .show-spin {
-  
   opacity: 1;
   animation: spin 2s linear infinite;
 }
+
 
 
   
